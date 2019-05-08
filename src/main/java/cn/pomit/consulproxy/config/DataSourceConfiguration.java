@@ -11,7 +11,7 @@ import cn.pomit.mybatis.configuration.MybatisConfiguration;
 public class DataSourceConfiguration {
 	public static final String DATASOURCE_PREFIX = "datasource.";
 	public static void initConfiguration(Properties properties) {
-		String packageName = "cn.pomit.serv.mapper";
+		String packageName = "cn.pomit.consulproxy.mapper";
 		try {
 			Properties dataSourceProperties = new Properties();
 			for (Object key : properties.keySet()) {
